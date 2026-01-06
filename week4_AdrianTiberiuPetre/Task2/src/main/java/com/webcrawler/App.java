@@ -17,7 +17,7 @@ public class App {
         try {
             // Configure and build the web crawler
             WebCrawler crawler = new WebCrawler.Builder()
-                .rootUrl("https://example.com/")
+                .rootUrl("https://www.mci.edu/")
                 .maxDepth(3)               // Crawl up to 3 levels deep
                 .maxPages(50)              // Stop after 50 pages
                 .threadPoolSize(10)        // Use 10 concurrent threads
